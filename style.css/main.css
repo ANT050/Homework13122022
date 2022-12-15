@@ -1,0 +1,64 @@
+.moscow {
+	margin-top: 95px;
+}
+
+.saint-petersburg {
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+.container-moscow,
+.container-saint-petersburg {
+	max-width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-moscow,
+.section-saint-petersburg {
+	margin: 0;
+	margin-bottom: 25px;
+	font-size: 35px;
+	line-height: 130%;
+	text-align: center;
+	color: black;
+}
+
+.card-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.card {
+	margin-bottom: 30px;
+	background-color: white;
+	max-width: 540px;
+	padding: 20px;
+	box-shadow: 0px 10px 40px rgba(126, 155, 189, 1);
+	border-radius: 20px;
+}
+
+.card-img {
+	width: 500px;
+	height: 250px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card-title {
+	margin: 0;
+	margin-bottom: 13px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 130%;
+	color: black;
+}
+
+.card p {
+	font-size: 16px;
+	line-height: 130%;
+	color: black;
+	margin: 0;
+}
